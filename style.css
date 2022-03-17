@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Libre+Baskerville:ital@0;1&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+
+/* Fonts & colours */
+body {
+  color: #202020;
+  background-image: url(images/background-women.jpeg);
+  background-size: cover;
+}
+
+h1, h2 {
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+}
+a:hover {
+  color: #FFA06F;
+}
+
+li {
+  display: inline;
+  color: #575F7D;
+}
+
+
+/* Custom design with class*/
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: #FAF9F6;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 30px;
+}
+
+.btn-green {
+  background-color: #28544B;
+  color: #FFFFFF;
+  padding: 10px;
+  margin: 15px, 20px;
+  border-radius: 4px;
+}
+
+.btn-green:hover {
+  background-color: #FFA06F;
+  color: #28544B;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 30px;
+  color: #ACBD86;
+}
+.list-inline i:hover {
+  color: black;
+}
+
+
+
+
+/* Design adjustments using id */
+
+#introduction {
+  margin: 0px, 20px;
+}
+
+#intro-para {
+  margin-bottom: 30px;
+}
